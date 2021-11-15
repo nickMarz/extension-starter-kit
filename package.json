@@ -1,7 +1,7 @@
 {
   "name": "extension-starter-kit",
   "version": "0.0.1",
-  "description": "Extension Starter Kit",
+  "description": "Helio Quotes",
   "private": true,
   "scripts": {
     "tsc": "tsc --noEmit",

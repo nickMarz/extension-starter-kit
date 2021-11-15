@@ -6,7 +6,10 @@ import "./Popup.scss";
 function Popup() {
   return (
     <div className="Popup mt-5 mx-4 text-center">
-      Popup!
+      <div className="mb-3">
+        <CaptureButton />
+      </div>
+
       <div className="mb-3">
         <SettingsButton />
       </div>
@@ -28,5 +31,21 @@ function SettingsButton() {
     </button>
   );
 }
+
+function CaptureButton() {
+  return (
+    <button
+      type="button"
+      className="btn btn-link btn-sm"
+      onClick={(e) => {
+        console.log(e);
+        e.preventDefault();
+      }}
+    >
+      Capture!
+    </button>
+  );
+}
+// captis
 
 export default Popup;

@@ -143,7 +143,7 @@ module.exports = (env, argv) => {
 
     devServer: {
       contentBase: path.join(__dirname, "dist-dev"),
-      port: 3000,
+      port: 4444,
       hot: true,
       // Display all files when navigating to /
       writeToDisk: true,
